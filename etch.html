@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch n' sketch</title>
+    <link href="etch.css" rel="stylesheet">
+    <script src="etch.js" defer></script>
+</head>
+<body>
+    <header id="main-header">Etch A sketch</header>
+
+    <div id="main-window">
+    <div id="settings-interface" padding-top="-10px">
+        <label class="size-label">Size of Grid</label>
+        <input type="range" min="2" max="100" value="50" id="slider">
+        <label id="color-label" class="size-label">Color</label>
+        <select id="color-selector" name="cars" id="cars">
+            <option value="red">red</option>
+            <option value="green">green</option>
+            <option value="grey">grey</option>
+            <option value="aqua">aqua</option>
+        </select>
+    </div>
+    <div id="sketch-container"></div>
+    </div>
+</body>
+</html>
